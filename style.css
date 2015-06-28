@@ -3,7 +3,7 @@ a {
 
 body {
   text-align: center;
-  margin: 30px 50px; }
+  margin: 30px 30px; }
 
 .wrapper {
   font-family: 'Meiryo', sans-serif;
@@ -24,31 +24,39 @@ body {
       padding: 0; }
     .wrapper header .tel p {
       margin: 0;
-      padding: 0 0 -30px 0; }
+      padding: 0 0 -30px 0;
+      font-size: .95em; }
   .wrapper .menu {
+    background-color: #eeeeee;
     clear: both;
     border-bottom: 1px solid #ccc;
-    padding: 20px 0 0 0;
     margin: 0; }
     .wrapper .menu #toggle {
       display: none; }
-    .wrapper .menu ul li {
-      color: #990000;
-      list-style-type: none;
-      display: inline-block;
+    .wrapper .menu ul {
       margin: 0;
-      padding: 10px 20px;
-      transition: .2s; }
-      .wrapper .menu ul li a {
-        color: #990000; }
-      .wrapper .menu ul li:hover {
-        background-color: #990000;
-        opacity: .9;
-        cursor: pointer;
-        box-shadow: 0 1px 4px #999;
-        border-radius: 5px; }
-        .wrapper .menu ul li:hover a {
-          color: white; }
+      padding: 0;
+      text-align: center; }
+      .wrapper .menu ul li {
+        color: #990000;
+        list-style-type: none;
+        display: inline-block;
+        margin: 0;
+        min-width: 12%;
+        height: 100%;
+        padding: 15px 10px;
+        transition: .2s; }
+        .wrapper .menu ul li a {
+          color: #990000;
+          text-decoration: none; }
+        .wrapper .menu ul li:hover {
+          background-color: #990000;
+          opacity: .9;
+          cursor: pointer;
+          box-shadow: 0 1px 4px #999;
+          border-radius: 5px; }
+          .wrapper .menu ul li:hover a {
+            color: white; }
   .wrapper .top .top_img {
     margin: 20px 0px; }
     .wrapper .top .top_img img {
@@ -105,7 +113,11 @@ body {
         display: inline-block;
         margin: 10px; }
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 1120px) {
+  .br:before {
+    content: "\A";
+    white-space: pre; } }
+@media screen and (max-width: 768px) {
   body {
     margin: 10px; }
 
