@@ -198,7 +198,7 @@ body {
 		.menu {
 			#toggle {
 				display: block;
-				position: relative;
+				position: static;
 				width: 100%;
 				background: $base-color;
 				a {
@@ -223,6 +223,7 @@ body {
 				display: block;
 				//left: 0;
            	 	width: 100%;
+           	 	position: relative;
 			}
 			ul {
 				//position: fixed;
@@ -230,9 +231,10 @@ body {
             	//transition: 1s;
 				li {
 					width: 100%;
+					position: relative;
 					margin: 0;
-					padding: 8px 0;
-					background-color: lighten($base-color, 65%);
+					padding: 10px 0;
+					background-color: lighten($base-color, 67%);
 					border-bottom: 1px solid #ccc;
 					&:hover {
 						border-radius: 0;

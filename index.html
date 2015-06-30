@@ -24,12 +24,14 @@
 		<div class="menu">
 			<div id="toggle"><a href="#"><i class="fa fa-bars"></i> menu</a></div>
 			<ul id="menu">
+				<nav>
 				<li id="br2"><a href=""><i class="fa fa-home"></i> ホーム</a></li>
 				<li><a href=""><i class="fa fa-leaf"></i> 無農薬へのこだわり</a></li>
 				<li id="br2"><a href=""><i class="fa fa-leanpub"></i> メニュー</a></li>
 				<li><a href=""><i class="fa fa-user"></i> お店と私たちのこと</span></a></li>
 				<li><a href=""><i class="fa fa-cutlery"></i> 人気の組み合わせ</a></li>
 				<li><a href=""><i class="fa fa-comment"></i> お客さまのひとこと</a></li>
+				</nav>
 			</ul>
 		</div>
 		<div class="top">
@@ -106,7 +108,9 @@
 
         $("#toggle").on("click", buttonclicked);
         function buttonclicked () {
-            $("#menu").slideToggle("open");
+        	$("#menu").slideToggle();
+            $("#menu").toggleClass("open");
+            return false;
         }
 
 	</script>

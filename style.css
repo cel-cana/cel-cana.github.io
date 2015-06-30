@@ -136,7 +136,7 @@ body {
       font-size: .9em; }
     .wrapper .menu #toggle {
       display: block;
-      position: relative;
+      position: static;
       width: 100%;
       background: #990000; }
       .wrapper .menu #toggle a {
@@ -155,12 +155,14 @@ body {
       display: none; }
     .wrapper .menu #menu.open {
       display: block;
-      width: 100%; }
+      width: 100%;
+      position: relative; }
     .wrapper .menu ul li {
       width: 100%;
+      position: relative;
       margin: 0;
-      padding: 8px 0;
-      background-color: #ffe5e5;
+      padding: 10px 0;
+      background-color: #fff0f0;
       border-bottom: 1px solid #ccc; }
       .wrapper .menu ul li:hover {
         border-radius: 0; }
