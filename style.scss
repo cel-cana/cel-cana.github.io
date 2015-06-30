@@ -178,8 +178,11 @@ body {
 }
 
 @media screen and (max-width: 768px){
+	body {
+		margin: 0;
+	}
 	.wrapper {
-		//margin: 10px;
+		margin: 10px;
 		header {
 			.logo_img {
 				img {
@@ -201,10 +204,16 @@ body {
 				a {
 					display: block;
 					position: relative;
-					padding: 12px 0 10px;
+					padding: 10px 0;
 					color: white;
 					text-align: center;
 					text-decoration: none;
+					&:hover {
+						opacity: .9;
+						cursor: pointer;
+						box-shadow: 0 1px 4px #999;
+						background-color: lighten($base-color, 8%);
+					}
 				}
 			}
 			#menu {
@@ -212,18 +221,22 @@ body {
 			}
 			#menu.open {
 				display: block;
-				left: 0;
-           	 	transition: .2s;
+				//left: 0;
            	 	width: 100%;
 			}
 			ul {
-				position: fixed;
-            	left: -100%;
-            	transition: .2s;
+				//position: fixed;
+            	//left: -100%;
+            	//transition: 1s;
 				li {
 					width: 100%;
 					margin: 0;
-					background-color: #ccc;
+					padding: 8px 0;
+					background-color: lighten($base-color, 65%);
+					border-bottom: 1px solid #ccc;
+					&:hover {
+						border-radius: 0;
+					}
 				}
 			}
 		}
