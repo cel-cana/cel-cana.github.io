@@ -178,10 +178,8 @@ body {
 }
 
 @media screen and (max-width: 768px){
-	body {
-		margin: 10px;
-	}
 	.wrapper {
+		//margin: 10px;
 		header {
 			.logo_img {
 				img {
@@ -193,15 +191,43 @@ body {
 				font-size: .9em;
 			}
 		}
+
 		.menu {
-			
-			padding: 0px;
+			#toggle {
+				display: block;
+				position: relative;
+				width: 100%;
+				background: $base-color;
+				a {
+					display: block;
+					position: relative;
+					padding: 12px 0 10px;
+					color: white;
+					text-align: center;
+					text-decoration: none;
+				}
+			}
+			#menu {
+				display: none;
+			}
+			#menu.open {
+				display: block;
+				left: 0;
+           	 	transition: .2s;
+           	 	width: 100%;
+			}
 			ul {
+				position: fixed;
+            	left: -100%;
+            	transition: .2s;
 				li {
-					display: inline;
+					width: 100%;
+					margin: 0;
+					background-color: #ccc;
 				}
 			}
 		}
+
 		.popular {
 			figure {
 				font-size: .9em;

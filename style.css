@@ -124,18 +124,38 @@ body {
       padding: 0;
       width: 24%; } }
 @media screen and (max-width: 768px) {
-  body {
-    margin: 10px; }
-
   .wrapper header .logo_img img {
     width: 35%; }
   .wrapper header .advertise {
     padding: 0;
     font-size: .9em; }
-  .wrapper .menu {
-    padding: 0px; }
+  .wrapper .menu #toggle {
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #990000; }
+    .wrapper .menu #toggle a {
+      display: block;
+      position: relative;
+      padding: 12px 0 10px;
+      color: white;
+      text-align: center;
+      text-decoration: none; }
+  .wrapper .menu #menu {
+    display: none; }
+  .wrapper .menu #menu.open {
+    display: block;
+    left: 0;
+    transition: .2s;
+    width: 100%; }
+  .wrapper .menu ul {
+    position: fixed;
+    left: -100%;
+    transition: .2s; }
     .wrapper .menu ul li {
-      display: inline; }
+      width: 100%;
+      margin: 0;
+      background-color: #ccc; }
   .wrapper .popular figure {
     font-size: .9em;
     margin: 0 0 20px 0; }
