@@ -160,9 +160,20 @@ body {
 }
 
 @media screen and (max-width: 1120px){
+
 	.br:before {
 		content: "\A";
 		white-space: pre ;
+	}
+
+	.menu {
+		ul {
+			padding: 0;
+			li {
+				padding: 0;
+				width: 24%;
+			}
+		}
 	}
 }
 
