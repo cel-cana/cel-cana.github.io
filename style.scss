@@ -208,6 +208,7 @@ body {
 	.wrapper {
 		margin: 10px;
 		header {
+			margin: 0 auto;
 			.logo_img {
 				img {
 					width: 35%;
@@ -220,7 +221,7 @@ body {
 			.tel {
 				float: left;
 				font-size: .7em;
-				margin: 0;
+				margin: 0 0 2% 40%;
 				p {
 					display: none;
 				}
