@@ -1,5 +1,5 @@
 a {
-  color: #990000; }
+  color: #992200; }
 
 body {
   text-align: center;
@@ -33,12 +33,14 @@ body {
     margin: 0; }
     .wrapper .menu #toggle {
       display: none; }
+    .wrapper .menu #menu {
+      display: block; }
     .wrapper .menu ul {
       margin: 0;
       padding: 0;
       text-align: center; }
       .wrapper .menu ul li {
-        color: #990000;
+        color: #992200;
         list-style-type: none;
         display: inline-block;
         margin: 0;
@@ -47,10 +49,10 @@ body {
         padding: 15px 10px;
         transition: .2s; }
         .wrapper .menu ul li a {
-          color: #990000;
+          color: #992200;
           text-decoration: none; }
         .wrapper .menu ul li:hover {
-          background-color: #990000;
+          background-color: #992200;
           opacity: .9;
           cursor: pointer;
           box-shadow: 0 1px 4px #999;
@@ -92,7 +94,7 @@ body {
           height: auto; }
         .wrapper .top_goodpoint ul li figure h2 {
           margin: 5px 0; }
-        .wrapper .top_goodpoint ul li figure p {
+        .wrapper .top_goodpoint ul li figure a {
           margin: 5px 0; }
   .wrapper .popular h2, .wrapper .popular figcaption, .wrapper .popular p {
     text-align: left; }
@@ -133,7 +135,7 @@ body {
     margin: 0; }
     .wrapper header .advertise p {
       margin: 0; } }
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 767px) {
   body {
     margin: 0; }
 
@@ -142,11 +144,18 @@ body {
     .wrapper header .advertise {
       padding: 5px;
       font-size: .9em; }
+    .wrapper header .tel {
+      text-align: center;
+      font-size: .8em;
+      float: right;
+      margin: 0 20px 0 0; }
+      .wrapper header .tel p {
+        display: none; }
     .wrapper .menu #toggle {
       display: block;
       position: static;
       width: 100%;
-      background: #990000; }
+      background: #992200; }
       .wrapper .menu #toggle a {
         display: block;
         position: relative;
@@ -158,7 +167,7 @@ body {
           opacity: .9;
           cursor: pointer;
           box-shadow: 0 1px 4px #999;
-          background-color: #c20000; }
+          background-color: #c22b00; }
     .wrapper .menu #menu {
       display: none; }
     .wrapper .menu #menu.open {
@@ -170,7 +179,7 @@ body {
       position: relative;
       margin: 0;
       padding: 10px 0;
-      background-color: #fff0f0;
+      background-color: #fff3f0;
       border-bottom: 1px solid #ccc; }
       .wrapper .menu ul li:hover {
         border-radius: 0; }

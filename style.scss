@@ -1,4 +1,4 @@
-$base-color: #990000;
+$base-color: #992200;
 
 a {
 	color: $base-color;
@@ -49,6 +49,9 @@ body {
 		#toggle {
 			display: none;
 		}
+		#menu {
+			display: block;
+		}
 		ul {
 			margin: 0;
 			padding: 0;
@@ -67,7 +70,7 @@ body {
 					text-decoration: none;
 				}
 				&:hover {
-					background-color: #990000;
+					background-color: $base-color;
 					opacity: .9;
 					cursor: pointer;
 					box-shadow: 0 1px 4px #999;
@@ -125,7 +128,7 @@ body {
 					h2 {
 						margin: 5px 0;
 					}
-					p {
+					a {
 						margin: 5px 0;
 					}
 				}
@@ -198,7 +201,7 @@ body {
 }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-device-width: 767px){
 	body {
 		margin: 0;
 	}
@@ -213,6 +216,15 @@ body {
 			.advertise {
 				padding: 5px;
 				font-size: .9em;
+			}
+			.tel {
+				text-align: center;
+				font-size: .8em;
+				float: right;
+				margin: 0 20px 0 0;
+				p {
+					display: none;
+				}
 			}
 		}
 
