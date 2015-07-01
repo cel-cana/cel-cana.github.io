@@ -210,18 +210,17 @@ body {
 		header {
 			.logo_img {
 				img {
-
+					width: 35%;
 				}
 			}
 			.advertise {
-				padding: 5px;
-				font-size: .9em;
+				padding: 0 15px;
+				font-size: .7em;
 			}
 			.tel {
-				text-align: center;
-				font-size: .8em;
-				float: right;
-				margin: 0 20px 0 0;
+				float: left;
+				font-size: .7em;
+				margin: 0;
 				p {
 					display: none;
 				}

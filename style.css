@@ -141,14 +141,15 @@ body {
 
   .wrapper {
     margin: 10px; }
+    .wrapper header .logo_img img {
+      width: 35%; }
     .wrapper header .advertise {
-      padding: 5px;
-      font-size: .9em; }
+      padding: 0 15px;
+      font-size: .7em; }
     .wrapper header .tel {
-      text-align: center;
-      font-size: .8em;
-      float: right;
-      margin: 0 20px 0 0; }
+      float: left;
+      font-size: .7em;
+      margin: 0; }
       .wrapper header .tel p {
         display: none; }
     .wrapper .menu #toggle {
