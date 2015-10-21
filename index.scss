@@ -200,31 +200,87 @@ html {
     body {
       #container {
         .firstView {
+          background: url(bg3.png) center top / cover no-repeat;
           #topView {
             width: 90%;
+            .title {
+              position: relative;
+              top: 200px;
+            }
+            .disknum {
+              img {
+                width: 150px;
+                position: relative;
+                top: 180px;
+              }
+            }
           }
         }
         .hiddenView {
           .message {
+            width: 100%;
             img {
-              width: 480px;
+              width: 100%;
             }
           }
           .trackSections {
-            height: 400%;
+            height: 2000px;
+            background: url(back2.png) top center;
             .trackFrame {
               .tracks {
                 float: none;
-                margin: 0 20px;
-                width: 90%;
+                margin: 0 auto;
+                width: 95%;
                 .crossfade {
                   width: 100%;
                   margin: 0 auto;
                 }
                 .trackDefList {
                   margin: 0 auto;
+                  padding-left: 40px; 
+                  width: 100%;
+                  .trackTitle{
+                    margin: 0;
+                    width: 100%;
+                    float: none;
+                  }
+                  .trackComposer {
+                    float: none;
+                  }
                 }
               }
+            }
+          }
+          .information {
+            .map {
+              .strong {
+                font-size: 1.5em;
+              }
+              .notStrong {
+                font-size: 1.2em;
+              }
+            }
+            .price {
+              dd {
+                font-size: 1.7em;
+              }
+            }
+          }
+          .credit {
+            font-size: 0.85em;
+            .dlCredit {
+              width: 90%;
+              margin: 0 auto;
+              padding-left: 50px;
+              .dtCredit {
+                margin: 0;
+                width: 100px;
+              }
+            }
+          }
+          footer {
+            img {
+              width: 30px;
             }
           }
         }

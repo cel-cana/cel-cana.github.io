@@ -153,20 +153,57 @@ html {
             margin: 0; }
 
 @media screen and (max-width: 767px) {
-  html body #container .firstView #topView {
-    width: 90%; }
-  html body #container .hiddenView .message img {
-    width: 480px; }
+  html body #container .firstView {
+    background: url(bg3.png) center top/cover no-repeat; }
+    html body #container .firstView #topView {
+      width: 90%; }
+      html body #container .firstView #topView .title {
+        position: relative;
+        top: 200px; }
+      html body #container .firstView #topView .disknum img {
+        width: 150px;
+        position: relative;
+        top: 180px; }
+  html body #container .hiddenView .message {
+    width: 100%; }
+    html body #container .hiddenView .message img {
+      width: 100%; }
   html body #container .hiddenView .trackSections {
-    height: 400%; }
+    height: 2000px;
+    background: url(back2.png) top center; }
     html body #container .hiddenView .trackSections .trackFrame .tracks {
       float: none;
-      margin: 0 20px;
-      width: 90%; }
+      margin: 0 auto;
+      width: 95%; }
       html body #container .hiddenView .trackSections .trackFrame .tracks .crossfade {
         width: 100%;
         margin: 0 auto; }
       html body #container .hiddenView .trackSections .trackFrame .tracks .trackDefList {
-        margin: 0 auto; } }
+        margin: 0 auto;
+        padding-left: 40px;
+        width: 100%; }
+        html body #container .hiddenView .trackSections .trackFrame .tracks .trackDefList .trackTitle {
+          margin: 0;
+          width: 100%;
+          float: none; }
+        html body #container .hiddenView .trackSections .trackFrame .tracks .trackDefList .trackComposer {
+          float: none; }
+  html body #container .hiddenView .information .map .strong {
+    font-size: 1.5em; }
+  html body #container .hiddenView .information .map .notStrong {
+    font-size: 1.2em; }
+  html body #container .hiddenView .information .price dd {
+    font-size: 1.7em; }
+  html body #container .hiddenView .credit {
+    font-size: 0.85em; }
+    html body #container .hiddenView .credit .dlCredit {
+      width: 90%;
+      margin: 0 auto;
+      padding-left: 50px; }
+      html body #container .hiddenView .credit .dlCredit .dtCredit {
+        margin: 0;
+        width: 100px; }
+  html body #container .hiddenView footer img {
+    width: 30px; } }
 
 /*# sourceMappingURL=index.css.map */
