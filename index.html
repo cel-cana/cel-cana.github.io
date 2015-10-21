@@ -1,119 +1,129 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="style.css">
-	<title>ナチュラル・オーガニック　- サンドイッチ&amp;カフェ</title>
+  <meta charset="UTF-8">
+  <title>Twin paradoX</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<div class="wrapper">
-		<header>
-			<div class="logo_img">
-				<a href=""><img src="logo.jpg" alt="logo"></a>
-			</div>
-			<div class="advertise">
-				<p>無農薬の食材だけをつかった<span class="br">サンドイッチ＆カフェ</span><br>"ナチュラル・オーガニック"</p>
-			</div>
-			<div class="tel">
-				<h2><i class="fa fa-phone"></i> 03-1234-5678</h2><p>平日8:00〜21:00<span class="br2"> 土曜8:00〜13:00</span><span class="br2"> 日曜定休</span></p>
-			</div>
-		</header>
+  <div id="container">
+    <!-- header -->
+    <header>
 
-		<div class="menu">
-			<div id="toggle"><a href=""><i class="fa fa-bars"></i> menu</a></div>
-			<ul id="menu">
-				<nav>
-				<li><a href=""><i class="fa fa-home"></i> ホーム</a></li>
-				<li><a href=""><i class="fa fa-leaf"></i> 無農薬へのこだわり</a></li>
-				<li><a href=""><i class="fa fa-leanpub"></i> メニュー</a></li>
-				<li><a href=""><i class="fa fa-user"></i> お店と私たちのこと</span></a></li>
-				<li><a href=""><i class="fa fa-cutlery"></i> 人気の組み合わせ</a></li>
-				<li><a href=""><i class="fa fa-comment"></i> お客さまのひとこと</a></li>
-				</nav>
-			</ul>
-		</div>
-		<div class="top">
-			<div class="top_img">
-				<img src="top_main_visual.jpg" alt="トップ画像です">
-			</div>
-			<div class="top_introduce">
-				<h2>美味しい無農薬野菜カフェは恵比寿にあります</h2>
-				<p>無農薬の食材だけをつかったおいしいサンドイッチ＆カフェのお店、ナチュラル・オーガニックのホームページへようこそ。<br>私たちは、自家栽培で穫れた無農薬野菜のみを使い、体にやさしくて美味しい食材をお客様に召し上がっていただくことが大きなよろこびです。<br>小さなたたずまいですが、お客様にはふらっと立ち寄れるアットホームな雰囲気づくりも目指しています。<br> お気軽にお越しください、お待ちしております。</p>
-			</div>
-		</div>
-		<div class="button">
-			<button ><h2>　お店と私たちのこと　</h2></button>
-		</div>
-		<div class="top_goodpoint">
-			<ul>
-				<li>
-					<figure>
-						<img src="top_fig_menu.jpg" alt="menu">
-						<div class="content">
-							<h2>おいしく、うれしく</h2>
-							<a href="">当店のメニュー</a>
-						</div>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<img src="top_fig_shop.jpg" alt="shop">
-						<div class="content">
-							<h2>おくつろぎください</h2>
-							<a href="">店内の紹介</a>
-						</div>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<img src="top_fig_access.jpg" alt="access">
-						<div class="content">
-							<h2>駅から2分</h2>
-							<a href="">恵比寿駅からのアクセス方法</a>
-						</div>
-					</figure>
-				</li>
-			</ul>
-		</div>
-		<div class="popular">
-			<h2>サンドイッチ+ドリンク+サイドメニュー…人気の組み合わせは？</h2>
-				<figure>
-					<figcaption>今月の1位</figcaption>
-					<img src="top_fig_lank.jpg" alt="lank1">
-					<figcaption>ハムサンド+サラダ+コーヒー</figcaption>
-				</figure>
-				<div class="content">
-					<p>無農薬栽培には非常にコストかかるため、セット割引はしておりません。<br>組み合わせはお客様の自由なんですが、「何を組み合わせたらよいかわからない」というお客様のために、当店をご利用のお客様がよく選ばれている組み合わせの人気ランキングを毎月更新しています。<br>人気の組み合わせをカロリー計算したら何カロリー？そちらも結構興味深いところです。<br>
-					<br>
-					<a href="">「人気の組み合わせ」はこちら</a>
-					</p>
-				</div>
-		</div>
-		<footer>
-			<ul>
-				<li><a href="">ホーム</a></li>
-				<li><a href="">無農薬へのこだわり</a></li>
-				<li><a href="">メニュー</a></li>
-				<li><a href="">お店と私たちのこと</a></li>
-				<li><a href="">人気の組み合わせ</a></li>
-				<li><a href="">お客さまのひとこと</a></li>
-			</ul>
-			<p>&copy; Natural Organic</p>
-		</footer>
-	</div>
-	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script>
-
-        $("#toggle").on("click", buttonclicked);
-        function buttonclicked () {
-        	$("#menu").slideToggle();
-            $("#menu").toggleClass("open");
-            return false;
-        }
-
-	</script>
+    </header>
+    <!-- Top -->
+    <div class="firstView">
+      <section id="topView" class="sections">
+        <h1 class="title"><img src="title.png" alt="CDのタイトル画像です"></h1>
+        <div class="disknum">
+          <img src="diskNum.png" alt="CDのナンバーです">
+        </div>  
+      </section>
+    </div>
+    <div class="hiddenView">
+      <!-- Track List -->
+      <div class="message">
+        <img src="paradox3.png" alt="過去と未来が交錯する画像です">
+      </div>
+      <div class="trackSections">
+        <div class="trackFrame">
+        <div id="AcousticList" class="tracks">
+          <div class="crossfade">
+            <iframe width="90%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228327659&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+          </div>
+          <div class="diskTitleImg">
+            <img src="acoustic.png" alt="アコースティックの画像です">
+          </div>
+          <dl class="trackDefList">
+            <dt class="trackTitle">Ⅰ. 序曲「出撃」</dt>
+            <dd class="trackComposer">楽団ガーネット</dd>
+            <dt class="trackTitle">Ⅱ. Prism maker</dt>
+            <dd class="trackComposer">yasuhira</dd>
+            <dt class="trackTitle">Ⅲ. Banquet!</dt>
+            <dd class="trackComposer">kinaphar</dd>
+            <dt class="trackTitle">Ⅳ. Indivisible</dt>
+            <dd class="trackComposer">yagisam</dd>
+            <dt class="trackTitle">Ⅴ. 夕陽</dt>
+            <dd class="trackComposer">ksks</dd>
+            <dt class="trackTitle">Ⅵ. Dawned Evening</dt>
+            <dd class="trackComposer">Amylase</dd>
+            <dt class="trackTitle">Ⅶ. Activate Your Emotion</dt>
+            <dd class="trackComposer">Jackit</dd>
+            <dt class="trackTitle">Ⅷ. bounSing mind</dt>
+            <dd class="trackComposer">graft</dd>
+            <dt class="trackTitle">Ⅸ. 戦神 -Ikusagami-</dt>
+            <dd class="trackComposer">kinaphar</dd>
+            <dt class="trackTitle">Ⅹ. 白夜の日(Acoustic)</dt>
+            <dd class="trackComposer">siu vs kinaphar</dd>
+            <dt class="trackTitle">Ⅺ. めちゃくちゃに鳴らすギター</dt>
+            <dd class="trackComposer">natsunoe</dd>
+            <dt class="trackTitle">Ⅻ. 4536</dt>
+            <dd class="trackComposer">nicoichi</dd>
+          </dl>
+        </div>
+        <div id="ElectricList" class="tracks">
+          <div class="crossfade">
+            <iframe width="90%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228331102&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+          </div>
+          <div class="diskTitleImg">
+            <img src="electric.png" alt="エレクトリックの画像です">
+          </div>
+          <dl class="trackDefList">
+            <dt class="trackTitle">Ⅰ. sasanqua</dt>
+            <dd class="trackComposer">dim.</dd>
+            <dt class="trackTitle">Ⅱ. MP3</dt>
+            <dd class="trackComposer">coroK-Bb</dd>
+            <dt class="trackTitle">Ⅲ. You will find me</dt>
+            <dd class="trackComposer">siu</dd>
+            <dt class="trackTitle">Ⅳ. Laplace</dt>
+            <dd class="trackComposer">yasuhira</dd>
+            <dt class="trackTitle">Ⅴ. ミラクル</dt>
+            <dd class="trackComposer">dim.</dd>
+            <dt class="trackTitle">Ⅵ. 白夜の日(dim.remix)</dt>
+            <dd class="trackComposer">dim.</dd>
+            <dt class="trackTitle">Ⅶ. 握った空虚を</dt>
+            <dd class="trackComposer">nesouda</dd>
+            <dt class="trackTitle">Ⅷ. far</dt>
+            <dd class="trackComposer">natsunoe</dd>
+            <dt class="trackTitle">Ⅸ. uki</dt>
+            <dd class="trackComposer">polamjag</dd>
+            <dt class="trackTitle">Ⅹ. triq</dt>
+            <dd class="trackComposer">polamjag</dd>
+            <dt class="trackTitle">Ⅺ. Acid Macaron</dt>
+            <dd class="trackComposer">canacel</dd>
+            <dt class="trackTitle">Ⅻ. 沈黙が夜明けを包み込んで</dt>
+            <dd class="trackComposer">nesouda</dd>
+          </dl>
+        </div>
+        </div>
+      </div>
+      
+        <!-- Information -->
+      <div class="information">
+        <div class="map">
+          <p class="strong"><strong>2015.10.25</strong></p>
+          <p class="strong"><strong>M3 第一展示場 I-23a</strong></p>
+          <p class="notStrong">にて頒布</p>
+        </div>
+        <div class="price">
+          <dt>PRICE: </dt><dd>¥500</dd>
+        </div>
+      </div>
+      <!-- Credit -->
+      <div class="credit">
+        <dl class="dlCredit">
+          <dt class="dtCredit">Mastering</dt><dd class="ddCredit">siu</dd>
+          <dt class="dtCredit">Jacket Design</dt><dd class="ddCredit">ハルヒ, ぱぷりか</dd>
+          <dt class="dtCredit">DTP</dt><dd class="ddCredit">kinaphar</dd>
+          <dt class="dtCredit">Web Design</dt><dd class="ddCredit">canacel</dd>
+        </dl>
+      </div>
+      <!-- footer -->
+      <footer>
+        <a href="http://tsukubadtm.tumblr.com/"><img src="logo.png" alt="Tsukuba DTM Lab. のロゴ画像です"></a>
+        <p id="copyright"><small>&copy; 2015 Tsukuba DTM Lab.</small></p>
+      </footer>
+    </div>
+  </div>
 </body>
 </html>
