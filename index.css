@@ -6,7 +6,7 @@ html {
     margin: 0;
     height: 100%;
     width: 100%;
-    font-family: YuGothic, Meiryo, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif; }
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", Meiryo, "メイリオ", sans-serif; }
     html body #loading {
       width: 100%;
       position: fixed;
@@ -58,7 +58,7 @@ html {
           text-align: center;
           margin: 0 auto;
           width: 100%;
-          background: url(backintrey3.jpg) center center/cover no-repeat; }
+          background: url(backintrey4.jpg) center center/cover no-repeat; }
           html body #container .hiddenView .message img {
             width: 70%; }
         html body #container .hiddenView br {
@@ -102,14 +102,16 @@ html {
                   margin-right: 15px;
                   text-align: left;
                   display: block;
-                  float: left; }
+                  float: left;
+                  padding: 5px 0; }
                 html body #container .hiddenView .trackSections .trackFrame .tracks .trackDefList .trackComposer {
                   margin: 0;
                   display: block;
                   text-align: left;
+                  padding: 5px 0;
                   -webkit-margin-start: 0px; }
         html body #container .hiddenView .information {
-          background: url(backintrey3.jpg) center center/cover no-repeat;
+          background: url(backintrey4.jpg) center center/cover no-repeat;
           text-align: center;
           margin: 0 auto;
           padding: 10px 0;
@@ -118,7 +120,8 @@ html {
           html body #container .hiddenView .information .map .strong {
             font-size: 2.5em; }
           html body #container .hiddenView .information .map .notStrong {
-            font-size: 1.5em; }
+            font-size: 1.5em;
+            padding: 5px 0; }
           html body #container .hiddenView .information .map p {
             margin: 0 0 -20px 0;
             -webkit-margin-before: 0em;
@@ -152,10 +155,12 @@ html {
               text-align: left;
               font-weight: bold;
               float: left;
-              margin-right: 20px; }
+              margin-right: 20px;
+              padding: 5px 0; }
             html body #container .hiddenView .credit .creditFrame .dlCredit .ddCredit {
               margin: 0;
-              text-align: left; }
+              text-align: left;
+              padding: 5px 0; }
         html body #container .hiddenView footer {
           background-color: #330066;
           padding: 10px 0;

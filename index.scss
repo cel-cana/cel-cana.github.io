@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+$font-hiragino-kakugo: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN';
+$font-meiryo: Meiryo, 'メイリオ';
+$font-yu-gothic: '游ゴシック体', 'YuGothic', '游ゴシック', 'Yu Gothic';
+
 html {
   height: 100%;
   width: 100%;
@@ -6,7 +11,7 @@ html {
     margin: 0;
     height: 100%;
     width: 100%;
-    font-family: YuGothic, Meiryo, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    font-family: $font-hiragino-kakugo, $font-meiryo, sans-serif;
     #loading{
       width: 100%;
       position: fixed;
@@ -69,7 +74,7 @@ html {
           text-align: center;
           margin: 0 auto;
           width: 100%;
-          background: url(backintrey3.jpg) center center / cover no-repeat;
+          background: url(backintrey4.jpg) center center / cover no-repeat;
           img {
             width: 70%;
           }
@@ -121,12 +126,14 @@ html {
                 text-align: left;
                 display: block;
                 float: left;
+                padding: 5px 0;
                 //clear: both;
               }
               .trackComposer {
                 margin: 0;
                 display: block;
                 text-align: left;
+                padding: 5px 0;
                 //width: 20%;
                 -webkit-margin-start: 0px;
               }
@@ -135,7 +142,7 @@ html {
           }
         }
         .information {
-          background: url(backintrey3.jpg) center center / cover no-repeat;
+          background: url(backintrey4.jpg) center center / cover no-repeat;
           text-align: center;
           margin: 0 auto;
           padding: 10px 0;
@@ -147,6 +154,7 @@ html {
             }
             .notStrong {
               font-size: 1.5em;
+              padding: 5px 0;
             }
             p {
               margin: 0 0 -20px 0;
@@ -189,10 +197,12 @@ html {
               font-weight: bold;
               float: left;
               margin-right: 20px;
+              padding: 5px 0;
             }
             .ddCredit {
               margin: 0;
               text-align: left;
+              padding: 5px 0;
             }
           }
           }
