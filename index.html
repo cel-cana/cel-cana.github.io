@@ -9,8 +9,8 @@
 </head>
 <body>
   <div id="loading">
-    <p>Loading...</p>
-    <i class="fa fa-cog fa-spin"></i>
+    <p>Now Loading ...</p>
+    <img src="futago.png" alt="双子の画像です">
   </div>
   <div id="container">
     <!-- header -->
@@ -136,9 +136,9 @@
 </body>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script>
-  $(function() {
+  $(window).load(function() {
     $("#loading").fadeOut();
-    $("#container").fadeIn();
+    $("#container").fadeIn("slow");
   });
 </script>
 
