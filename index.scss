@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  width: 100%;
   body {
     margin: 0;
     height: 100%;
@@ -122,6 +123,7 @@ html {
           background: url(backintrey.png) center center no-repeat;
           text-align: center;
           margin: 0 auto;
+          padding: 10px 0;
           width: 100%;
           color: white;
           .map {
@@ -237,15 +239,17 @@ html {
                 }
                 .trackDefList {
                   margin: 0 auto;
-                  padding-left: 40px; 
+                  //padding-left: 40px; 
                   width: 100%;
                   .trackTitle{
-                    margin: 0;
-                    width: 100%;
+                    margin: 0 auto;
+                    width: 80%;
                     float: none;
                   }
                   .trackComposer {
                     float: none;
+                    margin: 0 auto;
+                    width: 63%;
                   }
                 }
               }
@@ -269,12 +273,17 @@ html {
           .credit {
             font-size: 0.85em;
             .dlCredit {
-              width: 90%;
+              width: 70%;
               margin: 0 auto;
-              padding-left: 50px;
+              //padding-left: 50px;
               .dtCredit {
-                margin: 0;
+                margin: 0 10px 0 0;
                 width: 100px;
+              }
+              .ddCredit {
+                margin: 0;
+                //width: 100px;
+                -webkit-margin-start: 0px;
               }
             }
           }
