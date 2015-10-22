@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Twin paradoX</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
+  <div id="loading">
+    <p>Loading...</p>
+    <i class="fa fa-cog fa-spin"></i>
+  </div>
   <div id="container">
     <!-- header -->
     <header>
@@ -112,12 +117,14 @@
       </div>
       <!-- Credit -->
       <div class="credit">
-        <dl class="dlCredit">
-          <dt class="dtCredit">Mastering</dt><dd class="ddCredit">siu</dd>
-          <dt class="dtCredit">Jacket Design</dt><dd class="ddCredit">ハルヒ, ぱぷりか</dd>
-          <dt class="dtCredit">DTP</dt><dd class="ddCredit">kinaphar</dd>
-          <dt class="dtCredit">Web Design</dt><dd class="ddCredit">canacel</dd>
-        </dl>
+        <div class="creditFrame">
+          <dl class="dlCredit">
+            <dt class="dtCredit">Mastering</dt><dd class="ddCredit">siu</dd>
+            <dt class="dtCredit">Jacket Design</dt><dd class="ddCredit">ハルヒ, ぱぷりか</dd>
+            <dt class="dtCredit">DTP</dt><dd class="ddCredit">kinaphar</dd>
+            <dt class="dtCredit">Web Design</dt><dd class="ddCredit">canacel</dd>
+          </dl>
+        </div>
       </div>
       <!-- footer -->
       <footer>
@@ -127,4 +134,12 @@
     </div>
   </div>
 </body>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+  $(function() {
+    $("#loading").fadeOut();
+    $("#container").fadeIn();
+  });
+</script>
+
 </html>

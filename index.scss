@@ -6,7 +6,17 @@ html {
     height: 100%;
     width: 100%;
     font-family: "Yu Gothic", YuGothic, sans-serif;
+    #loading{
+      position:absolute;
+      left:50%;
+      top:20%;
+      margin-left:-30px;
+      p {
+        font-weight: bold;
+      }
+    }
     #container {
+      display: none;
       height: 143%;
       header {
         background-color: #330066;
@@ -160,6 +170,7 @@ html {
           width: 100%;
           margin: 0 auto;
           padding: 10px 0;
+          .creditFrame{
           .dlCredit {
             width: 300px;
             margin: 0 auto;
@@ -178,6 +189,7 @@ html {
               margin: 0;
               text-align: left;
             }
+          }
           }
         }
         footer {
@@ -279,6 +291,11 @@ html {
           }
           .credit {
             font-size: 0.80em;
+            width: 100%;
+            margin: 0 auto;
+            .creditFrame {
+              width: 80%;
+              margin: 0 auto;
             .dlCredit {
               width: 70%;
               margin: 0 auto;
@@ -292,6 +309,7 @@ html {
                 //width: 100px;
                 -webkit-margin-start: 0px;
               }
+            }
             }
           }
           footer {

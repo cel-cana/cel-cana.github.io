@@ -6,7 +6,15 @@ html {
     height: 100%;
     width: 100%;
     font-family: "Yu Gothic", YuGothic, sans-serif; }
+    html body #loading {
+      position: absolute;
+      left: 50%;
+      top: 20%;
+      margin-left: -30px; }
+      html body #loading p {
+        font-weight: bold; }
     html body #container {
+      display: none;
       height: 143%; }
       html body #container header {
         background-color: #330066;
@@ -128,20 +136,20 @@ html {
           width: 100%;
           margin: 0 auto;
           padding: 10px 0; }
-          html body #container .hiddenView .credit .dlCredit {
+          html body #container .hiddenView .credit .creditFrame .dlCredit {
             width: 300px;
             margin: 0 auto;
             padding: 10px 0;
             display: block;
             text-align: center;
             color: black; }
-            html body #container .hiddenView .credit .dlCredit .dtCredit {
+            html body #container .hiddenView .credit .creditFrame .dlCredit .dtCredit {
               width: 150px;
               text-align: left;
               font-weight: bold;
               float: left;
               margin-right: 20px; }
-            html body #container .hiddenView .credit .dlCredit .ddCredit {
+            html body #container .hiddenView .credit .creditFrame .dlCredit .ddCredit {
               margin: 0;
               text-align: left; }
         html body #container .hiddenView footer {
@@ -201,16 +209,21 @@ html {
   html body #container .hiddenView .information .price dd {
     font-size: 1.7em; }
   html body #container .hiddenView .credit {
-    font-size: 0.80em; }
-    html body #container .hiddenView .credit .dlCredit {
-      width: 70%;
+    font-size: 0.80em;
+    width: 100%;
+    margin: 0 auto; }
+    html body #container .hiddenView .credit .creditFrame {
+      width: 80%;
       margin: 0 auto; }
-      html body #container .hiddenView .credit .dlCredit .dtCredit {
-        margin: 0 10px 0 0;
-        width: 100px; }
-      html body #container .hiddenView .credit .dlCredit .ddCredit {
-        margin: 0;
-        -webkit-margin-start: 0px; }
+      html body #container .hiddenView .credit .creditFrame .dlCredit {
+        width: 70%;
+        margin: 0 auto; }
+        html body #container .hiddenView .credit .creditFrame .dlCredit .dtCredit {
+          margin: 0 10px 0 0;
+          width: 100px; }
+        html body #container .hiddenView .credit .creditFrame .dlCredit .ddCredit {
+          margin: 0;
+          -webkit-margin-start: 0px; }
   html body #container .hiddenView footer img {
     width: 30px; } }
 @media screen and (max-device-width: 767px) {
