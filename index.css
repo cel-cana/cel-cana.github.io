@@ -217,6 +217,6 @@ html {
   html body #container .hiddenView .trackSections .trackFrame .tracks .trackDefList .trackTitle {
     margin: 5px 0; }
   html body #container .hiddenView .trackSections .trackFrame .tracks .trackDefList .trackComposer {
-    margin: 5px 0; } }
+    margin: 5px auto; } }
 
 /*# sourceMappingURL=index.css.map */
