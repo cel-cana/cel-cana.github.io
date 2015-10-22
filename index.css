@@ -30,7 +30,7 @@ html {
         width: 100%;
         height: 70%;
         min-height: 70%;
-        background: url(bg3.png) center top no-repeat; }
+        background: url(bg4.jpg) center top no-repeat; }
         html body #container .firstView #topView {
           margin: 0 auto;
           height: 100%;
@@ -58,13 +58,13 @@ html {
           text-align: center;
           margin: 0 auto;
           width: 100%;
-          background: url(backintrey2.png) center center/cover no-repeat; }
+          background: url(backintrey3.jpg) center center/cover no-repeat; }
           html body #container .hiddenView .message img {
             width: 70%; }
         html body #container .hiddenView br {
           clear: both; }
         html body #container .hiddenView .trackSections {
-          background: url(back2.png) center center no-repeat;
+          background: url(back3.jpg) center center no-repeat;
           margin: 0 auto;
           padding: 50px 0;
           width: 100%;
@@ -109,7 +109,7 @@ html {
                   text-align: left;
                   -webkit-margin-start: 0px; }
         html body #container .hiddenView .information {
-          background: url(backintrey2.png) center center no-repeat;
+          background: url(backintrey3.jpg) center center/cover no-repeat;
           text-align: center;
           margin: 0 auto;
           padding: 10px 0;
@@ -136,7 +136,7 @@ html {
               margin: 0;
               font-size: 2em; }
         html body #container .hiddenView .credit {
-          background: url(back2.png) center center/cover no-repeat;
+          background: url(back3.jpg) center center/cover no-repeat;
           width: 100%;
           margin: 0 auto;
           padding: 10px 0; }
@@ -168,7 +168,7 @@ html {
 
 @media screen and (max-width: 768px) {
   html body #container .firstView {
-    background: url(bg3.png) center top/cover no-repeat; }
+    background: url(bg4.jpg) center top/cover no-repeat; }
     html body #container .firstView #topView {
       width: 90%; }
       html body #container .firstView #topView .title {
@@ -185,7 +185,7 @@ html {
   html body #container .hiddenView .trackSections {
     width: 100%;
     height: 2050px;
-    background: url(back2.png) top center; }
+    background: url(back3.jpg) top center; }
     html body #container .hiddenView .trackSections .trackFrame .tracks {
       float: none;
       margin: 0 auto;
