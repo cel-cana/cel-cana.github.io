@@ -213,7 +213,7 @@ html {
         -webkit-margin-start: 0px; }
   html body #container .hiddenView footer img {
     width: 30px; } }
-@media screen and (max-device-width: 768px) {
+@media screen and (max-device-width: 767px) {
   html body #container .hiddenView .trackSections .trackFrame .tracks .trackDefList .trackTitle {
     margin: 5px 0; }
   html body #container .hiddenView .trackSections .trackFrame .tracks .trackDefList .trackComposer {
