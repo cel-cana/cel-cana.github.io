@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   height: 100%;
   width: 100%; }
@@ -5,9 +6,10 @@ html {
     margin: 0;
     height: 100%;
     width: 100%;
-    font-family: "Yu Gothic", YuGothic, sans-serif; }
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif; }
     html body #loading {
       width: 100%;
+      position: fixed;
       margin: 0 auto;
       padding-top: 50px;
       text-align: center; }
@@ -218,6 +220,7 @@ html {
       width: 80%;
       margin: 0 auto; }
       html body #container .hiddenView .credit .creditFrame .dlCredit {
+        width: 250px;
         margin: 0 auto; }
         html body #container .hiddenView .credit .creditFrame .dlCredit .dtCredit {
           margin: 0 10px 0 10px;
