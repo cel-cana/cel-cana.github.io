@@ -184,7 +184,8 @@ html {
       html body #container .hiddenView .trackSections .trackFrame .tracks .diskTitleImg {
         width: 300px; }
       html body #container .hiddenView .trackSections .trackFrame .tracks .trackDefList {
-        margin: 0 auto; }
+        margin: 0 auto;
+        width: 270px; }
         html body #container .hiddenView .trackSections .trackFrame .tracks .trackDefList .trackTitle {
           margin: 0 auto;
           width: 80%; }
