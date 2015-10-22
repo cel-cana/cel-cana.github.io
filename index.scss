@@ -303,3 +303,24 @@ html {
     }
   }
 }
+@media screen and (max-device-width: 768px) {
+  html {
+    body {
+      #container {
+        .hiddenView {
+          .trackSections {
+            .trackFrame {
+              .tracks {
+                .trackDefList {
+                  .trackTitle {
+                    margin: 5px 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
